@@ -3,7 +3,6 @@
 Bienvenidos al proyecto de final ingenieria de software de:
 
 * Adrián Fernández-Vaillo Villegas
-* Rodrigo Librán
 
 ## Instalacion y preparación del proyecto :rocket:
 
