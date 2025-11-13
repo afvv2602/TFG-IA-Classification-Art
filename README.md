@@ -65,13 +65,10 @@ The solution includes:
 
     TFG-IA-Classification-Art/
     │
-    ├── backend/               # Python backend (API + inference)
-    ├── model/                 # Trained CNN model + training scripts
-    ├── android-app/           # Android Studio project
-    ├── ios-app/               # iOS Xcode project
-    ├── dataset/               # Dataset or dataset link
-    ├── docs/                  # Documentation, diagrams, notes
-    └── README.md              # Project overview
+    ├── AestheticaAPI/               # Python backend (API + inference)
+    ├── IA-Android-App/              # Android / ios app
+    ├── IA-Art-Classification        # Trained CNN model + training scripts            
+    └── README.md                    # Project overview
 
 ## 🛠️ Tech Stack
 
@@ -89,7 +86,7 @@ The solution includes:
 ### Machine Learning
 
 -   CNN-based classification
--   TensorFlow / Keras or PyTorch *(adapt this depending on your model)*
+-   PyTorch
 -   Data preprocessing & augmentation
 
 ## 📦 Installation & Setup
@@ -107,17 +104,11 @@ Ensure the mobile device is connected to the same network.
 
 ### Mobile App Setup
 
-#### Android
+#### Android and iOS
 
-1.  Open the `android-app/` folder in Android Studio\
+1.  Open the `/IA-Android-App/iapp` folder in VScode\
 2.  Update the backend IP in the configuration file\
 3.  Build and run on a device
-
-#### iOS
-
-1.  Open the `ios-app/` folder in Xcode\
-2.  Update the backend IP\
-3.  Build and run on a physical device (recommended)
 
 ## ▶️ Usage
 
@@ -155,4 +146,5 @@ Software Engineer\
 
 This project is for educational and research purposes.\
 Contact me if you'd like to reuse or extend any part of the code.
+
 
