@@ -17,7 +17,7 @@ The solution includes:
 
 ### 📱 Mobile Application
 
--   Native development using **Android Studio** and **Xcode**
+-   Crossplatform development using **Flutter** and **VSCode**
 -   Full classification workflow:
     -   Capture a photo or select one from the gallery
     -   Send the image to the backend
@@ -155,3 +155,4 @@ Software Engineer\
 
 This project is for educational and research purposes.\
 Contact me if you'd like to reuse or extend any part of the code.
+
